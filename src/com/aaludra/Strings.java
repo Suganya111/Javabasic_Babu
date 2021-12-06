@@ -8,9 +8,10 @@ public class Strings {
 		String b="Prasath";
 		String c=a+b;
 		String e=c.replace('P', 'p');
-		String d="Babuprasath";
+		
 		System.out.println(c);
 		System.out.println(e);
+		String d="Babuprasath";
 		System.out.println(e.equals(d));
 		System.out.println(String.format("Name is:%s", c));
 		System.out.println(c.length());
