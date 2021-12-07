@@ -33,7 +33,7 @@ public class Task {
 		System.out.println("After:"+Arrays.toString(a));
 	}
 	public void count() {
-		 int[] b = new int [] {1,2,1,3,5,1,1,6};  
+		 int[] b ={1,2,1,3,5,1,1,6,4,4,4};  
 	       
 	        int[] c = new int [b.length];  
 	        int visited = -1;  
