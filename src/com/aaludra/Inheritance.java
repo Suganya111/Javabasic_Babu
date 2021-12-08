@@ -1,9 +1,14 @@
 package com.aaludra;
-
+import java.math.BigDecimal;
 public class Inheritance {
 	private String name;
 	private String email;
-	private double mobile;
+	private long mobile;
+	public Inheritance(String name) {
+		super();
+		this.name=name;
+		
+	}
 	public void setname(String name) {
 		this.name=name;
 		}
@@ -17,10 +22,10 @@ public class Inheritance {
 		return email;
 		
 	}
-	public void setmobile(double mobile) {
+	public void setmobile(long mobile) {
 		this.mobile=mobile;
 	}
-	public double getmobile() {
+	public long getmobile() {
 		return mobile;
 	}
 

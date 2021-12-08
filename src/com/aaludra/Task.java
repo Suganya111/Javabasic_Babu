@@ -8,7 +8,7 @@ public class Task {
 			System.out.println("FirstElement:"+a[0]);	
 	}
 	public void getLastValue() {
-			System.out.println("Last Element"+a[4]);	
+			System.out.println("Last Element"+a[a.length-1]);	
 	}
 	public void getAverage() {
 		

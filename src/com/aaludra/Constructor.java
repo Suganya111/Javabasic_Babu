@@ -6,7 +6,7 @@ public class Constructor {
 	private static int b;
 	private static int c;
 	private static int m,n;
-	public Constructor() {
+	Constructor() {
 		this.a=a;
 		this.b=b;
 		this.c=c;
