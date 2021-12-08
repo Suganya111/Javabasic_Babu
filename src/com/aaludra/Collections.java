@@ -45,10 +45,7 @@ public class Collections {
 	    for(int i=0;i<names.size();i++) {
 	    	System.out.println(names.get(i));
 	    }
-	    for(String na:naVector) {
-	    	System.out.println(na);
-	    }
-		
+	    
 
 	}
 
