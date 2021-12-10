@@ -17,12 +17,21 @@ public class Set1 {
 			}
 		}
 	}
+	public void treeset() {
+		Set<Integer> set=new TreeSet<>();
+		set.add(10)	;
+		set.add(9);
+		set.add(8);
+		set.add(7);
+		System.out.println(set);
+		}
 	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Set1 obj=new Set1();
 		obj.hashset();
+		obj.treeset();
 		
 	}
 

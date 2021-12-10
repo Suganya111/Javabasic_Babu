@@ -4,7 +4,16 @@ public class SortArrayList {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		List<Integer> num=List.of(3,-1,7,-2,5,-7,-10,-5);
+		List<Integer> num=new ArrayList<>(9);
+		num.add(3);
+		num.add(-10);
+		num.add(-2);
+		num.add(-7);
+		num.add(5);
+		num.add(7);
+		num.add(-1);
+		num.add(-5);
+		num.add(2);
 		List<Integer> numAl=new ArrayList<>(num);
 		Collections.sort(numAl);
 		for(int i:numAl){
