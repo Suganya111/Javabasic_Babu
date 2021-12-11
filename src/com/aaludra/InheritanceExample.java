@@ -1,17 +1,25 @@
 package com.aaludra;
-import java.math.BigDecimal;
-public class Inheritance {
+
+/*
+ * use a valuable class name
+ * BigDecimal class is not used
+ * Unused main method
+ * Unused super keyword
+ * Declaring a parameterized constructor , then no need to set a value
+ */
+public class InheritanceExample {
 	private String name;
 	private String email;
 	private long mobile;
-	public Inheritance(String name) {
-		super();
+
+	public InheritanceExample(String name) {
+
 		this.name=name;
-		
+
 	}
-	public void setname(String name) {
-		this.name=name;
-		}
+
+
+
 	public String getname() {
 		return name;
 	}
@@ -20,7 +28,7 @@ public class Inheritance {
 	}
 	public String getemail() {
 		return email;
-		
+
 	}
 	public void setmobile(long mobile) {
 		this.mobile=mobile;
@@ -29,10 +37,6 @@ public class Inheritance {
 		return mobile;
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-	
-	}
+
 
 }

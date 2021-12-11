@@ -1,11 +1,14 @@
 package com.aaludra;
 import java.util.Scanner;
-public class For {
 
-	public static void main(String[] args) {
+
+public class ForLoopExample {
+	Scanner in = new Scanner(System.in);
+	public void print() {
+
 		// TODO Auto-generated method stub
 		int n;
-		Scanner in=new Scanner(System.in);
+
 		System.out.println("Enter the number");
 		n=in.nextInt();
 		boolean isprime=false;
@@ -24,7 +27,11 @@ public class For {
 		else {
 			System.out.println("Given number is Not Prime");
 		}
-
+		in.close();
+	}
+	public static void main(String[] args) {
+		ForLoopExample example = new ForLoopExample();
+		example.print();
 	}
 
 }

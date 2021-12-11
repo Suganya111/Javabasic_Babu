@@ -1,9 +1,15 @@
 package com.aaludra;
-import java.io.*;
 import java.util.Scanner;
-public class While {
+/*
+ * io packages is not used
+ * class name must be meaningful
+ * better to write a method and call the method in main class
+ * Instead of if else we can use ternary operator
+ */
 
-	public static void main(String[] args) {
+public class WhileExample {
+
+	public void print() {
 		// TODO Auto-generated method stub
 		int num;
 		Scanner in=new Scanner(System.in);
@@ -23,6 +29,11 @@ public class While {
 			System.out.println("Given number is Not a Palindrome");
 		}
 	}
-	
-		
+
+	public static void main(String[] args) {
+		WhileExample example = new WhileExample();
+		example.print();
+	}
+
+
 }

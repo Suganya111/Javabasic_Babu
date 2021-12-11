@@ -1,20 +1,20 @@
 package com.aaludra;
 import java.util.Scanner;
-public class BreakContinue {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner in=new Scanner(System.in);
+public class BreakContinue {
+	Scanner in = new Scanner(System.in);
+
+	public void show() {
 		System.out.println("Enter the number");
 		int a=in.nextInt();
 		//break
 		for(int i=1;i<a;i++) {
 			if(i==5) {
-				
+
 				break;
 			}
 			System.out.println(i);
-			
+
 		}
 		System.out.println("-----------------------------");
 		//continue
@@ -25,6 +25,13 @@ public class BreakContinue {
 			System.out.println(j);
 		}
 
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		BreakContinue bc = new BreakContinue();
+		bc.show();
 	}
 
 }

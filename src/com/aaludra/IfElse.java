@@ -1,10 +1,10 @@
 package com.aaludra;
-import java.io.*;
 import java.util.Scanner;
+
 
 public class IfElse {
 
-	public static void main(String[] args) {
+	public void print() {
 		// TODO Auto-generated method stub
 		int m1,m2,m3,total;
 		float avg;
@@ -17,24 +17,35 @@ public class IfElse {
 		m3=in.nextInt();
 		total=m1+m2+m3;
 		avg=total/3;
-		if(avg>80) {
-			if(m1>40&&m2>40&&m3>40)
-			System.out.println("Grade A");
-		}
-		
-		else if(avg>60) {
-			if(m1>40&&m2>40&&m3>40)
-			System.out.println("Grade B");
-		}
-		else if(avg>40) {
-			if(m1>40&&m2>40&&m3>40)
-			System.out.println("Grade C");
-		}
-		else {
-			if(avg<40)
-			System.out.println("No Grade");
-		}
+		if (m1 > 40 && m2 > 40 && m3 > 40) {
+			if(avg>80) {
 
+				System.out.println("Grade A");
+
+			}
+
+			else if(avg>60) {
+
+				System.out.println("Grade B");
+			}
+
+			else if (avg > 40) {
+				System.out.println("Grade C");
+			}
+
+			else {
+				if(avg<40) {
+					System.out.println("No Grade");
+				}
+			}
+		} else {
+			System.out.println("Fail");
+		}
+	}
+
+	public static void main(String[] args) {
+		IfElse example = new IfElse();
+		example.print();
 	}
 
 }
