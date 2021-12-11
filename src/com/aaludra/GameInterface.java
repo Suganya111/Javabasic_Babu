@@ -1,6 +1,9 @@
 package com.aaludra;
 
-public interface Interface {
+/*
+ * specify valid interface name
+ */
+public interface GameInterface {
 	public void up();
 	public void down();
 	public void left();

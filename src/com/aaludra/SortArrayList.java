@@ -1,5 +1,9 @@
 package com.aaludra;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+
 public class SortArrayList {
 
 	public static void main(String[] args) {
@@ -16,18 +20,19 @@ public class SortArrayList {
 		num.add(2);
 		List<Integer> numAl=new ArrayList<>(num);
 		Collections.sort(numAl);
+		System.out.println("Positive numbers");
 		for(int i:numAl){
-		        if(i>0){
-		           System.out.println(i);
-		        }
-		   }
-		Collections.reverse(numAl);
-
-		 for(int j:numAl){
-		        if(j<0){
-		            System.out.println(j);
-		        }
-		    }
+			if(i>0){
+				System.out.println(i);
+			}
+		}
+		Collections.sort(numAl);
+		System.out.println("Negative numbers");
+		for(int j:numAl){
+			if(j<0){
+				System.out.println(j);
+			}
+		}
 
 	}
 

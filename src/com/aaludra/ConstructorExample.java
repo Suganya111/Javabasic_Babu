@@ -1,19 +1,17 @@
 package com.aaludra;
 import java.util.Scanner;
 
-public class Constructor {
-	private static int a;
-	private static int b;
-	private static int c;
-	private static int m,n;
-	Constructor() {
-		this.a=a;
-		this.b=b;
-		this.c=c;
-	
+
+public class ConstructorExample {
+
+
+	// private static int m,n;
+	ConstructorExample(int a, int b, int c) {
+		System.out.println(a + b + c);
+
 	}
 	public void array() {
-		
+
 		int[][] a=new int[100][100];
 		int[][] b=new int[100][100];
 		int[][] c=new int[100][100];
@@ -44,17 +42,17 @@ public class Constructor {
 			}
 			System.out.println("");
 		}
-		
+
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		
-		Constructor obj=new Constructor();
+
+
+		ConstructorExample obj = new ConstructorExample(5, 5, 5);
 		obj.array();
-		
-		
+
+
 	}
 
 }
