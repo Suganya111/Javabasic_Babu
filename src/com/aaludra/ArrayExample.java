@@ -2,9 +2,9 @@ package com.aaludra;
 public class ArrayExample {
 	static void printArray()
 	{
-		String[] s=new String[] {"Babu","Karthi","Kishore","Hari","Navin"};
-		float[] marks=new float[]{8.5f,7.4f,6.7f,8.2f,3.7f};
-		for (int i = 0; i <= marks.length; i++) {
+		String[] s={"Babu","Karthi","Kishore","Hari","Navin"};
+		float[] marks={8.5f,7.4f,6.7f,8.2f,3.7f};
+		for (int i = 0; i <= marks.length-1; i++) {
 			if(marks[i]>=8.0) {
 				System.out.println(s[i]+" Grade A");
 			}
