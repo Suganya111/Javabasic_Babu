@@ -22,6 +22,7 @@ public class SwitchExample {
 		System.out.println("4. Division");
 		System.out.print("Enter Your Choice: ");
 		ch=in.nextInt();
+		in.close();
 		switch(ch) {
 		case 1:
 

@@ -9,15 +9,15 @@ import java.util.TreeSet;
 public class SetMethods {
 	static List<Character> link=List.of('A','Z','B','A','Z');
 	public void treeset() {
-		Set<Character> treeset=new TreeSet(link);
+		Set<Character> treeset=new TreeSet<>(link);
 		System.out.println(treeset);
 	}
 	public void linkedhash() {
-		Set<Character> linkedhash=new LinkedHashSet(link);
+		Set<Character> linkedhash=new LinkedHashSet<>(link);
 		System.out.println(linkedhash);
 	}
 	public void hashset() {
-		Set<Character> hashset=new HashSet(link);
+		Set<Character> hashset=new HashSet<>(link);
 		System.out.println(hashset);
 	}
 	public void subset() {

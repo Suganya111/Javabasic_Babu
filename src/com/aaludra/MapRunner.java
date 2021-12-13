@@ -8,9 +8,9 @@ public class MapRunner {
 		System.out.println(map);
 		Map<String, Integer> hashmap=new HashMap<>(map);
 		System.out.println(hashmap);
-		Map<String, Integer> linkedhashmap=new LinkedHashMap(map);
+		Map<String, Integer> linkedhashmap=new LinkedHashMap<>(map);
 		System.out.println(linkedhashmap);
-		Map<String, Integer> treemap=new TreeMap(map);
+		Map<String, Integer> treemap=new TreeMap<>(map);
 		System.out.println(treemap);
 		System.out.println("-------------------------------------------");
 		String str="TodayisFridayHaveaniceday";
@@ -19,15 +19,15 @@ public class MapRunner {
 		
 		for(String word:words) {
 			//get character
-			Integer integer=occurance.get(word);
+			Integer i=occurance.get(word);
 			//if it is there increment 1
 			//if it is not there initialize 1
-			if(integer==null) {
+			if(i==null) {
 				occurance.put(word,1);
 				
 			}
 			else {
-				occurance.put(word, integer+1);
+				occurance.put(word, i+1);
 			}
 		}
 		System.out.println(occurance);

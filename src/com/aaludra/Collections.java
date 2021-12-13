@@ -14,7 +14,7 @@ public class Collections {
 		nameArrayList.add("Kishore");
 		System.out.println(nameArrayList);
 		System.out.println(nameArrayList.get(0));
-		List<String> nameVector=new Vector(nameArrayList);
+		List<String> nameVector=new Vector<>(nameArrayList);
 		nameVector.add("Navin");
 		System.out.println(nameVector);
 		System.out.println(nameVector.get(nameVector.size()-1));

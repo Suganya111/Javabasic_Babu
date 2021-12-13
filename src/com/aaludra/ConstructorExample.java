@@ -41,7 +41,7 @@ public class ConstructorExample {
 				System.out.print("\t"+c[i][j]);
 			}
 			System.out.println("");
-		}
+		in.close();}
 
 	}
 

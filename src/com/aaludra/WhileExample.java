@@ -17,6 +17,7 @@ public class WhileExample {
 		num=in.nextInt();
 		int temp=num;
 		int rev=0;
+		in.close();
 		while(num!=0) {
 			rev=rev*10+num%10;//4 43 432 4321
 			num=num/10;//1234 123 12 1

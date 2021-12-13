@@ -15,6 +15,7 @@ public class IfElse {
 		m2=in.nextInt();
 		System.out.print("Enter Mark 3:");
 		m3=in.nextInt();
+		in.close();
 		total=m1+m2+m3;
 		avg=total/3;
 		if (m1 > 40 && m2 > 40 && m3 > 40) {
