@@ -5,8 +5,8 @@ public class GenericExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Customlist<String> list=new Customlist<>();
-		list.add("element 1");
-		list.add("element 2");
+		list.add("Babu");
+		list.add("Karthi");
 		String value=list.get(0);
 		System.out.println(list);
 		System.out.println(value);
@@ -16,7 +16,7 @@ public class GenericExample {
 		Integer num=list2.get(1);
 		System.out.println(list2);
 		System.out.println(num);
-
+		
 
 	}
 
