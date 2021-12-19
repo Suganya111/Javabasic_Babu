@@ -1,13 +1,14 @@
 package com.aaludra;
+//give proper class name
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 
-public class SortArrayList {
+public class SortArrayListExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		List<Integer> num=new ArrayList<>(9);
 		num.add(3);
 		num.add(-10);

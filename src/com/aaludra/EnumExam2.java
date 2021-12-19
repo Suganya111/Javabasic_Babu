@@ -1,5 +1,5 @@
 package com.aaludra;
-
+// give proper class name
 public class EnumExam2 {
 	enum Actors{
 		VIJAY(60),AJITH(50),SIVA(30);
@@ -11,7 +11,6 @@ public class EnumExam2 {
 	Actors a;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Actors[] ac=Actors.values();
 		for(int i=0;i<ac.length;i++) {
 			System.out.println(ac[i]+" Salary is "+ac[i].sal);

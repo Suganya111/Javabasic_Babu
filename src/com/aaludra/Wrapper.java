@@ -1,5 +1,9 @@
 package com.aaludra;
-import java.util.*;
+/*import java.util.* is never used
+ * object name must be meaningful
+ */
+
+//import java.util.*;
 public class Wrapper implements Comparable<Wrapper>{
 	private int rollno;
 	private String name;
@@ -12,7 +16,6 @@ public class Wrapper implements Comparable<Wrapper>{
 	}
 	@Override
 	public int compareTo(Wrapper o) {
-		// TODO Auto-generated method stub
 		return this.marks.compareTo(o.marks);
 	}
 	public String toString() {
@@ -22,3 +25,4 @@ public class Wrapper implements Comparable<Wrapper>{
 	}
 
 }
+

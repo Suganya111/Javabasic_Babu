@@ -3,7 +3,6 @@ import java.util.*;
 public class GenBoundRunner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		GenBound gb=new GenBound();
 		Set<String> hash=new HashSet<>();
 		hash.add("Kishore");

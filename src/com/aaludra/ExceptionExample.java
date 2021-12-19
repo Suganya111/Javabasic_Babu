@@ -50,9 +50,8 @@ public class ExceptionExample {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ExceptionExample obj = new ExceptionExample();
-		// obj.div();
+		//obj.div();
 		// obj.nullpoint();
 		//obj.numberformat();
 		obj.outofbound();

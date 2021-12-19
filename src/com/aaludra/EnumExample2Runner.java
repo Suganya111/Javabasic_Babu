@@ -1,5 +1,5 @@
 package com.aaludra;
-
+//valid to specify proper object name 
 public class EnumExample2Runner {
 	
 	public  void validsalary(String name, int i) {
@@ -44,7 +44,6 @@ public class EnumExample2Runner {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		EnumExample2Runner er2 = new EnumExample2Runner();
 		er2.validsalary("Grade3", 25000);
 

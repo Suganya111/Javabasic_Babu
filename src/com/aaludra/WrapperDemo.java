@@ -1,12 +1,11 @@
 package com.aaludra;
-
+//give proper class name
 public class WrapperDemo {
 	public void print(Object value) {
 		System.out.println(value);
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		WrapperDemo obj=new WrapperDemo();
 		obj.print(Integer.valueOf(100));
 		obj.print(Float.valueOf(10.5f));

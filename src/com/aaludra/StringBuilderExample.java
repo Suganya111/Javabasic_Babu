@@ -13,7 +13,6 @@ public class StringBuilderExample {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		StringBuilderExample sbe = new StringBuilderExample();
 		String[] name = { "Hari", "Sugnaya", "Saranya" };
 		sbe.builder(name);
@@ -21,3 +20,4 @@ public class StringBuilderExample {
 	}
 
 }
+ 

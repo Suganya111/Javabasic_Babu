@@ -22,7 +22,6 @@ public class EnumExample {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		EnumExample obj=new EnumExample(Day.MONDAY);
 		obj.test();
 		EnumExample obj2=new EnumExample(Day.WEDNESDAY);

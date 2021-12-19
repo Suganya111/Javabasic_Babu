@@ -4,9 +4,8 @@ import java.util.*;
 import java.util.Collections;
 
 public class WrapperExample {
-
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ArrayList<Wrapper> ar = new ArrayList<>();
 		ar.add(new Wrapper(1, "Babu", 98));
 		ar.add(new Wrapper(2, "Karthis", 92));
