@@ -6,7 +6,8 @@ public class ThrowExampleRunner {
 		// TODO Auto-generated method stub
 		ThrowExample te=new ThrowExample();
 		try {
-			te.verify("P@ssw0");
+			te.verify("P@ssw0rd");
+			System.out.println("Valid");
 		} catch (ThrowExample e) {
 			// TODO Auto-generated catch block
 			System.out.println("Password Should be 8 Characters");
