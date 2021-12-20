@@ -7,6 +7,10 @@ public class ChildThread {
 		MainThread mt=new MainThread();
 		System.out.println(mt.getState());
 		mt.start();
+		if(mt.isAlive()) {
+			System.out.println("Executing");
+			
+		}
 		System.out.println(mt.getState());
 		for(int i=0;i<5;i++) {
 			System.out.println("Hello");
@@ -14,7 +18,7 @@ public class ChildThread {
 		System.out.println(mt.getState());
 		mt.setName("Object");
 		System.out.println(mt.getName());
-		mt.setPriority(10);
+		mt.setPriority(5);
 		System.out.println(mt.getPriority());
 
 	}
