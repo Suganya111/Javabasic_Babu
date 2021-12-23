@@ -10,7 +10,7 @@ class Thread1 extends Thread{
 	}
 	
 }
-class Thread2 implements Runnable{
+class Thread2 implements Runnable{//Executor & Fixed Thread
 
 	@Override
 	public void run() {
