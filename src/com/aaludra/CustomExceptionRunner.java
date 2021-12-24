@@ -23,13 +23,21 @@ public class CustomExceptionRunner {
 		CustomExceptionRunner cer = new CustomExceptionRunner(-90);
 		try {
 			cer.validate();
-		} catch (CustomException ce) {
-			// TODO Auto-generated catch block
-			System.out.println(ce.getMessage());
-		} catch (NegativeException ne) {
+		}
+		
+		catch (NegativeException ne) {
 			System.out.println(ne.getMessage());
 		}
+		catch (CustomException ce) {
+			// TODO Auto-generated catch block
+			System.out.println(ce.getMessage());
+		} 
+		catch(Exception e) {
+			System.out.println(e);
+		}
+		
 		System.out.println("rest of code");
+
 
 	}
 
