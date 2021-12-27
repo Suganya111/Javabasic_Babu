@@ -7,6 +7,7 @@ public class Student extends InheritanceExample {
 	private int dob;
 	private String cljname;
 	private int yop;
+	public int age;
 	public Student(String name,String cljname) {
 
 		super(name);
