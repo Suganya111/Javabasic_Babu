@@ -6,7 +6,7 @@ public class FileOSExample {
 		// TODO Auto-generated method stub
 		try {
 			FileOutputStream fout=new FileOutputStream("C:\\eclipse\\java IO\\Fileout.txt",true);
-			String s="\nWelcome Back";
+			String s="I am Babu";
 			byte[] b=s.getBytes();
 			fout.write(b);
 			fout.close();
