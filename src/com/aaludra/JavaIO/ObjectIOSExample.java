@@ -1,4 +1,4 @@
-package com.aaludra;
+package com.aaludra.JavaIO;
 import java.io.*;
 public class ObjectIOSExample implements Serializable{
 	transient String name;
