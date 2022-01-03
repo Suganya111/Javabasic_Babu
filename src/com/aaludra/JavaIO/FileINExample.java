@@ -12,6 +12,7 @@ public class FileINExample {
 			FileInputStream fin=new FileInputStream("C:\\eclipse\\java IO\\Fileout.txt");
 			int i;
 			System.out.println(fin.available());
+			System.out.println(fin.getFD());
 			System.out.println(fin.skip(2));
 			fin.mark(0);
 			

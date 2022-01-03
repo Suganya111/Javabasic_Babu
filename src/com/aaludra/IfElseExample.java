@@ -2,7 +2,7 @@ package com.aaludra;
 import java.util.Scanner;
 
 
-public class IfElse {
+public class IfElseExample {
 
 	public void print() {
 		// TODO Auto-generated method stub
@@ -45,7 +45,7 @@ public class IfElse {
 	}
 
 	public static void main(String[] args) {
-		IfElse example = new IfElse();
+		IfElseExample example = new IfElseExample();
 		example.print();
 	}
 

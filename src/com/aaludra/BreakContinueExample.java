@@ -1,7 +1,7 @@
 package com.aaludra;
 import java.util.Scanner;
 
-public class BreakContinue {
+public class BreakContinueExample {
 	Scanner in = new Scanner(System.in);
 
 	public void show() {
@@ -30,7 +30,7 @@ public class BreakContinue {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		BreakContinue bc = new BreakContinue();
+		BreakContinueExample bc = new BreakContinueExample();
 		bc.show();
 	}
 

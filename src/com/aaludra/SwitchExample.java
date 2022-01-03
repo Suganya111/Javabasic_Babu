@@ -47,7 +47,9 @@ public class SwitchExample {
 		default:
 			System.out.println("Invalid Selection");
 
-		}}public static void main(String[] args) {
+		};
+		}
+	public static void main(String[] args) {
 
 	SwitchExample example = new SwitchExample();
 	example.print();

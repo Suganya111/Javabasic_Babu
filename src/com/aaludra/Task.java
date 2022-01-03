@@ -76,6 +76,9 @@ import java.util.Arrays;
 		 t.Index();
 		 System.out.println("--------------------");
 		 t.count();
+		 int a=10;
+		 int b=20;
+		 System.out.println(a+b);
 
 
 	 }

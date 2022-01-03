@@ -11,8 +11,6 @@ public class StringReaderExample {
 			System.out.print((char)i);
 			
 		}
-		
-
 	}
 
 }
