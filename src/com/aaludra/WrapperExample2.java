@@ -4,7 +4,7 @@ package com.aaludra;
 import java.util.*;
 import java.util.Collections;
 
-public class WrapperExample {
+public class WrapperExample2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
