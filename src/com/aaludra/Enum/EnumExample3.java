@@ -4,13 +4,13 @@ public class EnumExample3 {
 		SUNDAY,MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY;
 		
 	}
-	Days d;
-	public EnumExample3(Days d) {
-		this.d=d;
+	Days day;
+	public EnumExample3(Days day) {
+		this.day=day;
 		
 	}
 	public void test() {
-		switch(d){
+		switch(day){
 			case MONDAY:
 				System.out.println("Day is Monday");
 				break;
