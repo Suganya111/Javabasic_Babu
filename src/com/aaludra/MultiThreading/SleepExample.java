@@ -1,6 +1,6 @@
 package com.aaludra.MultiThreading;
 
-public class SleepExample {
+public class SleepExample extends Thread{
 	void sleep() {
 		for(int i=1;i<=5;i++) {
 			try {
@@ -16,7 +16,7 @@ public class SleepExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		SleepExample se=new SleepExample();
-		se.sleep();
+		se.start();
 
 	}
 

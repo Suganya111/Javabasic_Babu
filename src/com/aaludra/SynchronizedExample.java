@@ -29,6 +29,7 @@ public class SynchronizedExample {
 		};
 		t1.start();
 		t2.start();
+
 	}
 
 }
